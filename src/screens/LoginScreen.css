@@ -1,0 +1,99 @@
+.loginScreen {
+    position:relative;
+    height: 100%;
+    background-position: center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__background {
+
+}
+
+.loginScreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,.3);
+    background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.8) 100%);
+}
+
+
+
+
+
+.loginScreen__nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 35px;
+}
+
+.loginScreen__button {
+
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+
+.loginScreen__logo {
+    width: 150px;
+    object-fit:contain;
+}
+
+.loginScreen__body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.loginScreen__body > h1 {
+    font-size: 3.12rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__input {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.loginScreen__input > form > input {
+    padding: 10px;
+    outline: none;
+    height: 100%;
+    border: none;
+    flex-grow: 1;
+    max-width: 800px;
+}
+
+.loginScreen__getStarted {
+    padding: 16px 20px;
+    height: 100%;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
